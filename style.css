@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,800;1,200&family=Rubik+Glitch&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    
+}
+.container-left{
+    background-color: black;
+    width: 20%;
+}
+
+.container-center{
+    background-color: black;
+    width: 60%;
+}
+
+.container-right{
+    background-color: black;
+    width: 30%;
+    padding:2%
+}
+
+.container-navbar-center{
+    display: flex;
+    align-items: center;
+}
+
+.container-navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+.Logo{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: "Poppins";
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.Logo-name{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.container-name-session{
+    color: white;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-search{
+    display: flex;
+    width: 50%;
+    height: 4vh;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container-img-search{
+    display: flex;
+    align-items: center;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.container-header-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-nav{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: white;
+    opacity: 80%;
+    font-family: "Poppins";
+    margin: 10%;
+}
+
+.container-Client{
+    display: flex; 
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%;
+}
+
+.container-Invoice{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%;
+}
+
+.container-Products{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%; 
+}
+
+.container-Message{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%; 
+}
+
+.container-Setting{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%; 
+}
+
+.container-Help{
+    display: flex;
+    font-weight: 500;
+    font-size: 25px;
+    padding-bottom: 7%;
+}
+
+.container-Logout{
+    display: flex;
+    font-weight: 400;
+    position: fixed;
+    padding-bottom: 2%;
+    bottom: 0;
+}
+
+.Logout-name{
+    font-weight: 300;
+    font-size: 20px;
+}
+.container-background{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 1rem;
+    gap: 17px;
+    height: 1rem;
+    left: 63px;
+    top: 233px;
+    background: linear-gradient(266.37deg, #FAFF00 -5.82%, #FAFF00 15.95%, #1970D6 41.2%, #6C1182 72.88%);
+    border-radius: 17px;
+}
+
+.container-dashboard{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    padding-bottom: 10%;
+}
+
+.dashboard-text{
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.container-balance{
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+    font-family: "Poppins";
+}
+
+
+.container-balance-btc{
+    display: flex;
+    gap: 10%;
+}
+
+.container-balance-button-btc-txt{
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.container-balance-button-btc{
+    background-color: #FAFF00;
+    border-radius: 30px;
+    width: 80px;
+}
+
+.container-btc-txt{
+    font-weight: 900;
+    color: white;
+}
+
+.container-balance-dollars{
+    color: white;
+    opacity: 80%;
+}
+
+
+.container-balance-title{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 800;
+    opacity: 80%;
+}
+
+.container-balance-right{
+    height: 10%;
+    background-color: #292727;
+    border-radius: 20px;
+}
+
+.container-color{
+    background-color: #0D0C0C;
+    border-radius: 20px;
+}
+
+.container-balance-menu{
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+
+.container-balance-menu li{
+    margin: 10px;
+    font-size: 18px;
+}
+
+.container-graphique{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.container-sidebar{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins";
+}
+
+.container-sidebar-transaction{
+    color: white;
+    font-weight: Bold;
+    font-size: 1em;
+}
+
+.container-sidebar-coins{
+    color: white;
+    font-weight: Bold;
+    font-size: 1em;
+    opacity: 80%;
+}
+
+.container-bitcoin{
+    font-family: "Poppins";
+    display: flex;
+    background-color: #20232B;
+    gap: 7%;
+    width: 75%;
+    padding: 1%;
+    font-size: 0.9em;
+    border-radius: 30px;
+    justify-content: center;
+}
+
+.container-bitcoin-background{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+.container-etherum{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.flex-bitcoin{
+    display: flex;
+    align-items: center;
+    width: 5%;
+}
+
+.flex-ligne{
+    display: flex;
+    align-items: center;
+}
+
+.container-trade{
+    display: flex;
+    align-items: center;
+}
+
+.container-trade-background{
+    background-color: #000000;
+    border-radius: 30px;
+    display: flex;
+    width: 60px;
+    justify-content: center;
+}
+
+.container-trade-background p{
+    color: white;
+    text-align: center;
+}
+
+.container-color-grey h5{
+    color: white;
+    font-weight: 400;
+}
+
+.container-color-blue h5{
+    color: white;
+    font-weight: 400;
+}
+
+.container-color-green h5{
+    color: white;
+    font-weight: 400;
+}
+
+.container-color-grey p{
+    color: white;
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.container-color-blue p{
+    color: #1970D6;
+    font-weight: 400;
+}
+
+.container-color-green p{
+    color: #4AD619;
+    font-weight: 400;
+}
+
+.container-color-purple p{
+    color: #D61919;
+    font-weight: 400;
+}
+
+.container-color-red p{
+    color: #6C1182;
+    font-weight: 400;
+}
+
+.container-color-red h5{
+    color: white;
+    font-weight: 400;
+}
+
+.container-color-purple h5{
+    color: white;
+    font-weight: 400;
+}
+
+.container-sidebar-right-transaction{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 800;
+    display: flex;
+    padding: 10%;
+}
+
+.container-menu-transaction{
+    font-family: "Poppins";
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+}
+.container-menu-flex{
+    display: flex;
+    gap: 5%;  
+}
+
+.container-transaction-name h6{
+    color: white;
+}
+
+.container-transaction-name p{
+    color: white;
+    opacity: 70%;
+}
+
+.container-transaction-color-green{
+    color: green;
+}
+
+.container-transaction-color-gray{
+    color: white;
+    opacity: 70%;
+    padding-bottom: 2%;
+}
+
+.container-transaction-money-binance{
+    padding-left: 17%;
+}
+.container-transaction-money-usdt{
+    padding-left: 5%;
+}
+
+.container-transaction-color-red{
+    color: red;
+}
+
+.container-sidebar-right{
+    display: flex;
+}
+
+.container-asset-title{
+    color: white;
+    font-weight: 900;
+    font-family: "Poppins";
+}
+
+.container-sidebar-right-transaction-asset{
+    color: white;
+    font-family: "Poppins";
+    font-weight: 800;
+    display: flex;
+}
+
+.container-box-btx p{
+    color: white;
+    width: 25%;
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 15px;
+}
+
+.container-btc-colo{
+    color: white;
+    font-weight: 900;
+    font-style: "Poppins";
+}
+
+
+.container-btc-color{
+    gap: 35%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.container-box{
+    background: linear-gradient(#611D8D, #2F7EC1);
+    margin: 2%;
+    border-radius: 30px;
+    width: 80%;
+    height: 100px;
+}
+
+.container-box-background{
+    margin-left: 11%;
+}
+
+.container-box-btc-chiffre{
+    font-size: 15px;
+    padding-right: 8%;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+  }
+
+  .container-left{
+    width: 100%;
+  }
+
+  .container-center{
+    width: 100%;
+  }
+
+  .container-right{
+    width: 100%;
+  }
+
+  .Logo {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 900;
+    width: 100%;
+    font-family: Poppins;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.container-nav {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    color: white;
+    opacity: 80%;
+    font-family: "Poppins";
+    margin: 10%;
+    align-items: center;
+}
+
+.container-Logout{
+    display: flex;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.container-header-right {
+    display: flex;
+    justify-content: center;
+}
+
+.container-sidebar-right {
+    display: flex;
+    justify-content: center;
+}
+
+.container-menu-transaction {
+    font-family: "Poppins";
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
+
+.container-fin-histoire{
+    padding: 2%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
